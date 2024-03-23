@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!--Style Css Link-->
+    <link rel="stylesheet" href="./style.css">
+    <!--Font Awesom CDN Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+
+    <div class="weather-app">
+      <div class="container">
+        <div class="left-side">
+          <div class="brand">
+            <h3>Ayoub Edahlouli</h3>
+          </div>
+          <div class="weather-infos">
+            <h1 class="temperature"></h1>
+            <div class="city-infos">
+              <h2 class="city-name">Casablanca</h2>
+              <div class="buttom">
+                <span class="city-time">06:09</span>
+                <span class="city-date">Monday</span>
+              </div>
+            </div>
+            <div class="weather-condition">
+              <i class="fa-solid fa-cloud" id="icon"></i>
+              <h3 class="condition">Cloudy</h3>
+            </div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="theContainer">
+            <form action="" id="locationInput">
+              <input type="text" class="search" placeholder="Search Location...">
+              <div class="input-line"></div>
+              <button class="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+            <ul class="cities">
+              <li class="city">Rabat</li>
+              <li class="city">Paris</li>
+              <li class="city">London</li>
+              <li class="city">Tokyo</li>
+            </ul>
+            <!-- <div class="cities-line"></div> -->
+            <ul class="details">
+              <h4>Weather Details</h4>
+              <li>
+                <span>Cloudy</span>
+                <span class="cloud"></span>
+              </li>
+              <li>
+                <span>Humadity</span>
+                <span class="humadity"></span>
+              </li>
+              <li>
+                <span>Wind</span>
+                <span class="wind"></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--JavaScript Script Link-->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
